@@ -71,6 +71,7 @@ nav ul a:hover {
 
 
 
+
 .hero {
     /* border: 2px solid red; */
     display: flex;
@@ -175,6 +176,8 @@ nav ul a:hover {
     border-radius: 2px;
 }
 
+
+
 #about {
     text-align: center;
 }
@@ -185,25 +188,36 @@ nav ul a:hover {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    column-gap: 10%;
-    /* margin-top: 20px; */
-    /* border: 10px solid red; */
+    column-gap: 2%;
 }
 
 #about .about-content-box {
+    position: relative;
     width: 300px;
     height: 300px;
     background: linear-gradient(to bottom right, rgba(163, 255, 241, 0.99), rgba(94, 234, 213, 0.651));
     border-radius: 8px;
+
+    box-shadow: 0 0 100px  rgba(45, 95, 75, 0.762);
+
+
 }
 
-#about img {
-    height: 350px;
-    width: 250px;
+
+#about .about-content-box-Slash{
+  position: relative;
+  top: -15px;
+  font-size: 420px;
+  font-weight:900;
+  font-family:Arial, sans-serif;
+
+  color: #0f172a;
+  opacity: 0.5;
+
+  transform:skew(-4deg);
 }
 
 #about .about-content-card{
-    align-self: center;
     text-align: left;
     width: 50%;
     /* border: 3px solid red; */
