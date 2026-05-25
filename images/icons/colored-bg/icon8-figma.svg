@@ -1,0 +1,19 @@
+<!-- FIGMA -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="50px" height="50px" fill="#A259FF">
+
+  <!-- CHANGED: red  fill="#F24E1E" -->
+  <path  d="M25 2v14h-7c-3.855 0-7-3.145-7-7 0-3.855 3.145-7 7-7H25z"/>
+
+  <!-- CHANGED: purple -->
+  <path  d="M25 18v14h-7c-3.855 0-7-3.145-7-7 0-3.855 3.145-7 7-7H25z"/>
+
+  <!-- CHANGED: green fill="#0ACF83" -->
+  <path  d="M25 34v7c0 3.855-3.145 7-7 7s-7-3.145-7-7c0-3.855 3.145-7 7-7H25z"/>
+
+  <!-- CHANGED: orange fill="#FF7262"  -->
+  <path d="M41 9c0 3.855-3.145 7-7 7h-7V2h7C37.855 2 41 5.145 41 9z"/>
+
+  <!-- CHANGED: blue fill="#1ABCFE" -->
+  <path  d="M34 18A7 7 0 1034 32 7 7 0 1034 18z"/>
+
+</svg>
