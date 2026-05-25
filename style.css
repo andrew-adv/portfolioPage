@@ -285,22 +285,29 @@ nav ul li a[href="myProjects.html"] {
     margin-inline: 5%;
 }
 #formation li {
+    display: flex;
+    align-items: center;
     position: relative;
     padding: 20px 0;
     text-align: left;
     list-style: none;
     font-size: 24px;
     border-bottom: 2px solid grey;
-    align-self: center;
+}
+#formation li img {
+    display: inline-block;
+    margin-left: -30px;
 }
 
-#formation li img {
-    margin-right: 10px;
-    background:linear-gradient(rgba(247, 247, 247, 0.818), rgba(92, 91, 91, 0.67));
-    border-radius: 30%;
+#formation li img:first-child{
+    margin-left:0 ;
+}
+
+#formation li p{
+    margin: 10px;
 }
 #formation li span {
-    color:red;
+    color:grey;
     text-align: right;
     position: absolute;
     right: 0 ;
@@ -354,7 +361,7 @@ nav ul li a[href="myProjects.html"] {
     margin-right:0;
     font-weight: 900;
     position: absolute;
-    right: 10px;
+    right: 15px;
      
 }
 
