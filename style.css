@@ -428,14 +428,25 @@ footer {
     margin: auto;
     display: flex;
     flex-direction: column;
-    /* justify-content: space-around;
-    align-items: center; */
-    column-gap: 2%;
-}
+    }
     .mediaQuery {
         display: flex;
-        justify-content: space-evenly;
+        justify-content:center;
         width: 100%;
+    }
+
+    #about .about-content-box-Slash {
+        top: -160px;
+        left: 30px;
+    }
+
+    #about .about-content-card{
+        width: 80%;
+        font-size: 24px;
+    }
+
+    #experience {
+        font-size: 24px;
     }
     
     #contact ul {
