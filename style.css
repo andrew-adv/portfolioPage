@@ -337,7 +337,7 @@ nav ul li a[href="myProjects.html"] {
 }
 
 #contact li {
-    border: 1px solid grey;;
+    border: 1px solid grey;
     border-radius: 8px;
     padding: 15px;
     width: 30%;
@@ -376,4 +376,75 @@ footer {
     text-align: center;
     color: grey;
     margin: 2% 0;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1400px) {
+
+    nav ul li a[href="myProjects.html"] {
+        font-size: 20px;
+    }
+
+    
+}
+
+@media (max-width: 1200px) {
+    nav ul li a[href="myProjects.html"] {
+        font-size: 18px;
+        top: 10px;
+    }
+    
+    .divider {
+        overflow: hidden;
+    }
+}
+
+@media (max-width: 820px) {
+
+    header {
+        padding: 15px 0;
+    }
+    nav {
+        flex-direction: column;
+        justify-content: center;
+       }
+
+   nav ul {
+    display: none;
+    width: 100%;
+
+    }
+
+    #about .about-content {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around;
+    align-items: center; */
+    column-gap: 2%;
+}
+    .mediaQuery {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+    
+    #contact ul {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #contact li{
+        width: 100%;
+    }
+
 }
