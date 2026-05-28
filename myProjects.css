@@ -1,3 +1,107 @@
 .idea-dump{
     display: none;
 }
+
+* {
+    box-sizing: border-box;
+}
+section {
+
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.projects-section {
+    /* border: 4px solid wheat; */
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 20px 30px rgb(20, 59, 20), -10px 0 5px rgba(255, 0, 0, 1);
+    /* margin-bottom: 100px; */
+    box-sizing: border-box;
+}
+
+.section-header {
+    /* border: 3px solid green; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.projects-grid {
+    /* border: 2px solid grey;     */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 6%;
+    row-gap: 5%;
+
+    box-sizing: border-box;
+}
+
+.snippet-card{
+    box-sizing: border-box;
+}
+
+.preview {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    box-sizing: border-box;
+    border: 1px solid grey;
+    border-radius: 5px;
+
+    padding: 50px;
+}
+
+
+.snippet-card .preview {
+    height: 60%;
+}
+
+
+
+
+
+
+
+
+
+
+
+.primary-btn {
+    background-color: rgb(69, 69, 164);
+    color: #fff;
+    padding: 15px;
+    font-size: 24px;
+
+    border: none;
+    border-radius: 20px;
+
+    cursor: pointer;
+}
+
+.primary-btn:hover{
+    opacity: 0.8;
+}
+.primary-btn:active {
+    opacity: 0.5;
+}
+
+
+.input-field {
+    padding: 15px;
+
+    border-radius: 5px;
+
+    background-color: inherit;
+    color: #fff;
+    font-size: 24px;
+}
+.input-field::placeholder{
+    color: #fff;
+    font-size: 20px;
+}
+
+.input-field:focus{
+    border: 2px solid blue;
+}
